@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <title>ToDoList</title>
+</head>
+
+<body>
+    <div id="wrapper">
+        <div id="main">
+            <div id="main_top">
+                <h1>At Now</h1>
+                <h2 id="clock1"></h2>
+                <h2 id="clock2"></h2>
+            </div>
+            <div id="main_middle">
+                <form id="login-form">
+                    <input required maxlength="20" type="text" placeholder="" />
+                    <input type="submit" value="Log In" />
+                </form>
+                <h1 id="greeting" class="hidden"></h1>
+                <form id="todo-form">
+                    <input type="text" required />
+                </form>
+                <br />
+                <br />
+                <ul id="todo-list"></ul>
+            </div>
+            <div id="main_bottom">
+                <div id="weather">
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="js/todo.js"></script>
+    <script src="js/greeting.js"></script>
+    <script src="js/clock.js"></script>
+    <script src="js/weather.js"></script>
+    <script src="js/background.js"></script>
+</body>
+
+</html>
